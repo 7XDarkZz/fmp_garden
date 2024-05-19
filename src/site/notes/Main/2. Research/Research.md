@@ -28,4 +28,4 @@ Green - Titanfall
 Purple - Halo
 Blue - Helldivers
 
-![[Moodboard.canvas]] 
+![Pasted image 20240519031316.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240519031316.png)
