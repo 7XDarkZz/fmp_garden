@@ -131,7 +131,7 @@ To fix this I used the "Tris to Quads" operation in Blender but as you can see i
 
 When remeshing from this it still leaves a lot of problem areas such as in-between the fingers and just some weird geometry in some areas, its usable but I still decided to fix these particular areas manually by adding some loop cuts where necessary, using the join tool and dissolving problem edges.
 
-![[Desktop 2024.04.29 - 11.51.54.02.mp4]]
+https://youtu.be/ynHweItb2-w
 
 In-between the fingers there wasn't much space to see the mesh so I used the UV editor  to see the geometry better buy unwrapping that area and using the "UV Sync Selection" button so I could just directly select verts and edges in the UV editor.
 
