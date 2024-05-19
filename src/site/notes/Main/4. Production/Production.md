@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/main/4-production/production/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/main/4-production/production/"}
 ---
 
 ## Setup
