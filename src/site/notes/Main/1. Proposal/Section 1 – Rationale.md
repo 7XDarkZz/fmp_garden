@@ -4,7 +4,7 @@
 
 ## Progress
 
-Over the past 12 Units I have improved in many areas, I have gotten much better at basic hardsurface modelling which I was already good at, now being able to use multiple different softwares and learning new techniques. As for sculpting I was very bad before and I think I have improved a lot but still have areas to improve and that is partly why I have chose to do something sculpt-heavy for my project. As for game engines like Unreal I have also improved as I have learnt new techniques about modular modelling for rapid level design and have also improved in using Blueprints.  
+Over the past 12 Units I have improved in many areas, I have got much better at basic hardsurface modelling which I was already good at, now being able to use multiple different software and learning new techniques. As for sculpting I was very bad before and I think I have improved a lot but still have areas to improve and that is partly why I have chose to do something sculpt-heavy for my project. As for game engines like Unreal I have also improved as I have learnt new techniques about modular modelling for rapid level design and have also improved in using Blueprints.  
 
 ## FMP Choice
 
