@@ -22,23 +22,23 @@ I want to do this to improve my sculpting skills as this will force me to create
 
 #### Table
 
-| Week | Date Week Beginning | Date Completed | Activity / What you are <br>intending to do - including <br>independent study | Resources / What you will <br>need to do it - including <br>access to workshops |
-| ---- | ------------------- | -------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| 1    | 18/3/24             |                | Research and initial concepts                                                 | Internet and Obsidian                                                           |
-| 2    | 25/3/24             |                | Initial Blockout                                                              | Blender                                                                         |
-| 3    | 1/4/24              |                | Sculpting the base mesh                                                       | Blender                                                                         |
-| 4    | 8/4/24              |                | Sculpting the base mesh                                                       | Blender                                                                         |
-| 5    | 15/4/24             |                | Sculpting the base mesh                                                       | Blender                                                                         |
-| 6    | 22/4/24             |                | Creating hardsurface armour                                                   | Blender                                                                         |
-| 7    | 29/4/24             |                | Creating hardsurface armour                                                   | Blender                                                                         |
-| 8    | 6/5/24              |                | Creating hardsurface armour                                                   | Blender                                                                         |
-| 9    | 13/5/24             |                | Retopologize the mesh where needed                                            | Blender                                                                         |
-| 10   | 20/5/24             |                | Cloth Simulation                                                              | Blender                                                                         |
-| 11   | 27/5/24             |                | Texturing & Final Scene (Lighting, camera and render)                         | Blender & Quixel                                                                |
-| 12   | 6/6/24              |                | Evaluation                                                                    | Obsidian                                                                        |
+| Week | Date Week Beginning | Date Completed | Activity / What you are <br>intending to do - including <br>independent study | Resources / What you will <br>need to do it - including <br>access to workshops | Notes                                                                                                 |
+| ---- | ------------------- | -------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| 1    | 18/3/24             | 20/3/24        | Research and initial concepts                                                 | Internet and Obsidian                                                           |                                                                                                       |
+| 2    | 25/3/24             | 22/3/24        | Initial Blockout                                                              | Blender                                                                         |                                                                                                       |
+| 3    | 1/4/24              | --             | Sculpting the base mesh                                                       | Blender                                                                         |                                                                                                       |
+| 4    | 8/4/24              | --             | Sculpting the base mesh                                                       | Blender                                                                         |                                                                                                       |
+| 5    | 15/4/24             | 16/5/24        | Sculpting the base mesh                                                       | Blender                                                                         |                                                                                                       |
+| 6    | 22/4/24             | N/A            | Creating hardsurface armour                                                   | Blender                                                                         | Didn't create anything entirely in hardsurface as I ended up sculpting most of it (finished 16/5/24). |
+| 7    | 29/4/24             | N/A            | Creating hardsurface armour                                                   | Blender                                                                         |                                                                                                       |
+| 8    | 6/5/24              | N/A            | Creating hardsurface armour                                                   | Blender                                                                         |                                                                                                       |
+| 9    | 13/5/24             | 4/6/24         | Retopologize the mesh where needed                                            | Blender                                                                         | Highly underestimated how long retopology would take.                                                 |
+| 10   | 20/5/24             | N/A            | Cloth Simulation                                                              | Blender                                                                         | Ran out of time.                                                                                      |
+| 11   | 27/5/24             | 5/6/24         | Texturing & Final Scene (Lighting, camera and render)                         | Blender & Quixel                                                                | Created a small turntable with some lights instead of an elaborate scene.                             |
+| 12   | 6/6/24              | 6/6/42         | Evaluation                                                                    | Obsidian                                                                        |                                                                                                       |
 #### Gantt Chart
 
-d
+![FMP.png](/img/user/Images%20and%20Videos/FMP.png)
 
 #### Contingency Plan
 
