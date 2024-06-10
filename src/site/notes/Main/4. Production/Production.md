@@ -173,4 +173,90 @@ This is where I left it for now as I figured that adding more detail would be ea
 
 ## Boots
 
-d
+For my first attempt at the boots I simply followed the underlying model for the overall shape using a combination of the snake hook and grab brushes along with the clay strips brush to add volume.
+
+After that I started refining some of the details with the crease brush to get sharper lines and the clay strips brush to create the shape in the middle.
+
+![Pasted image 20240609232243.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240609232243.png)
+
+At this point in the sculpt though I didn't like it and started again using the same techniques.
+
+This one turned out much better and I think its because I made the tongue this time which I did by building up geometry with the clay strips brush then refining the edges with the crease brush. Again I made the part where the shoelaces would be by hollowing it out with the clay strips brush and pronouncing the edges with the crease brush and then using a combination of the smooth and flatten brushes in the middle. I then simply made the midsole and toe parts by using the crease brush and then smoothing on either side of it.
+
+![Pasted image 20240610022445.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610022445.png)
+
+For the laces I used a Bezier curve to create the laces by creating the shape by extruding and using the handles to control how it curves. Then in the details panel I added some thickness using the bevel menu.
+
+![Pasted image 20240610023751.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610023751.png)
+
+![Pasted image 20240610023841.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610023841.png)
+
+![Pasted image 20240610023441.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610023441.png)
+
+## Retopology 
+
+Due to me sculpting everything I had to retopolozise my models so that I had more flexibility with the model, this would allow me to texture easier, animate easier, use the models in game engines and overall it is more performant with the reduced polygon count. The method I used for retopology is in this video: https://www.youtube.com/watch?v=X2GNyEUvpD4
+
+Before and After:
+![Pasted image 20240610024432.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610024432.png)
+
+![Pasted image 20240610024445.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610024445.png)
+
+Before and After with Wireframe: 
+![Pasted image 20240610024932.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610024932.png)
+
+I did this with all parts of my model but the helmet by far looks the worst due to it being the first one I did and some of the detail looks smoothed over (which is good in some parts with the sculpt being bumpy in areas such as the ears) and is lost particularly around the visor but I did get better at the process as I went.
+
+For the hands in particular I used this tutorial as a guide: https://www.youtube.com/watch?v=GRakaemszL0, I used this as they have to be made this way so that if I did want to animate in the future the fingers would bend correctly without pinching (see image below).
+
+![unnamed.gif](/img/user/Images%20and%20Videos/unnamed.gif)
+
+Retopology by far took the longest in the whole project and took much longer than I thought it would, it wasn't hard but it was very monotonous and I thought it would go much quicker due to my previous experience with hardsurface modelling but despite that it still took way too much time.
+
+## Texturing
+
+Due to how much time had been taken up by retopology I had decided to create more basic textures within the Blender shader editor instead of using Quixel.
+
+I started with the material for the armour I wanted it to be the same material as the Helldivers or Stormtroopers armour but I wanted it to be muddy as if they had been in a warzone. I did this by using a noise texture with a colour ramp with muddy colours and white to create the mud patches and mixed that with my plastic texture for the colour. I also converted the colour ramp to black and white to use as a mask to give the mud and plastic parts different values for things like roughness and sheen. I also wanted red stripes on the armour but I ran out of time to do that so instead a checkerboard texture is there to see how the red would have looked, to change this I would have had to make a custom texture and unwrap my models but swapping it out would have been very easy as I could have just replaced the checkerboard texture with the custom one with the stripes I would have made.
+
+Node Tree:
+![Pasted image 20240610033310.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610033310.png)
+
+How It Looks:
+![Pasted image 20240610032334.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610032334.png)
+
+After this I made the visor which was simply done by giving it a colour and lowering the roughness to 0 and upping the metallic a bit.
+
+Node Tree:
+![Pasted image 20240610035840.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610035840.png)
+
+How it Looks
+![Pasted image 20240610035710.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610035710.png)
+
+I then made some green cloth clothing by simply giving it a green colour and altering some of the values in the "Principled BSDF" node and for the mud I just gutted the same system from the armour.
+
+Node Tree:
+![Pasted image 20240610034540.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610034540.png)
+
+How It Looks:
+![Pasted image 20240610034625.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610034625.png)
+
+And lastly I made the same thing but with black instead:
+
+![Pasted image 20240610035311.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610035311.png)
+
+Here is how the whole model looks:
+![Pasted image 20240610035530.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610035530.png)
+## Finished Product & Conclusion
+
+I decided due to time constraints that I would not do the cloth simulation as it can be very annoying to set up and get looking good from previous experience.
+
+Below I have 2 versions of the final product one that is textured and the other that is untextured to better show off the geometry.
+
+Textured Render:
+https://youtu.be/l-n6OdiSpp4
+
+Untextured Render:
+https://youtu.be/y7UC9AaFBVY
+
+Overall I am very happy with how the model itself turned out as I really feel like I am much better at sculpting after this as it was a very sculpt heavy project. But I lost out on a lot of time that could have been used for texturing and cloth simulation due to how long retopology took. That said I don't think it was useless as the model is at 128,770 triangles which according to https://3d-ace.com/blog/polygon-count-in-3d-modeling-for-game-assets/ and many games like helldivers characters being similar polycounts shows me that my model is within the limits for where it should be.
