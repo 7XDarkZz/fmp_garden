@@ -248,16 +248,3 @@ And lastly I made the same thing but with black instead:
 
 Here is how the whole model looks:
 ![Pasted image 20240610053027.png](/img/user/Images%20and%20Videos/Pasted%20image%2020240610053027.png)
-## Finished Product & Conclusion
-
-I decided due to time constraints that I would not do the cloth simulation as it can be very annoying to set up and get looking good from previous experience.
-
-Below I have 2 versions of the final product one that is textured and the other that is untextured to better show off the geometry.
-
-Textured Render:
-https://youtu.be/USNbvRvr74c
-
-Untextured Render:
-https://youtu.be/y7UC9AaFBVY
-
-Overall I am very happy with how the model itself turned out as I really feel like I am much better at sculpting after this as it was a very sculpt heavy project. But I lost out on a lot of time that could have been used for texturing and cloth simulation due to how long retopology took. That said I don't think it was useless as the model is at 128,770 triangles which according to https://3d-ace.com/blog/polygon-count-in-3d-modeling-for-game-assets/ and many games like helldivers characters being similar polycounts shows me that my model is within the limits for where it should be.
